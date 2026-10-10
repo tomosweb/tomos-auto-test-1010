@@ -20,7 +20,7 @@ if (!is_string($tomosRoot) || trim($tomosRoot) === '') {
 
 return [
     'site' => [
-        'name' => $siteName,
+        'name' => 'Tomos 自動公開検証',
         'description' => '',
         'url' => 'https://' . $owner . '.github.io',
         'base_path' => $basePath,
